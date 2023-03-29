@@ -12,7 +12,7 @@ module.exports = class Fighter {
         const attack = Math.floor((Math.random() * this.strength) + 1);
         if (attack > enemy.dexterity) {
             const damages = attack - enemy.dexterity;
-            if (damages > enemy.life) {
+            if (damages >= enemy.life) {
                 return enemy.life = 0;
             } 
             else {

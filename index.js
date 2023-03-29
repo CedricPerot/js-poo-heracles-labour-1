@@ -8,5 +8,3 @@ while (Heracles.life > 0 && NemeanLion.life > 0) {
         console.log(Heracles.fight(NemeanLion), Heracles, NemeanLion);
         console.log(NemeanLion.fight(Heracles), Heracles, NemeanLion);
 }
-
-
